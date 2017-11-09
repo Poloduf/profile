@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(220,220,220);
+  color: #E1C500;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  color: rgb(220,220,220);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(600, 600, 600);
+}
+
+a:hover {
+  color: #E1C500;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#profile-pict {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  margin: 6px auto;
+}
+
+.card {
+  background: #062743;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.hobbies-img {
+  width: 200px;
+  height: 150px;
+  margin: 10px auto;
+  box-shadow: 3px 3px 0px 0px rgba(220, 210, 0, 0.8);
+}
+
+.social-list {
+ list-style: none;
+ font-size: 17px;
+ padding-left: 0px;
+}
+.social-list > li {
+ display: inline-block;
+ padding: 10px;
+}
+
+#content{
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color: #E1C500;
+  opacity: 0.65;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#062743;
+}
+
+#sidebar a:hover {
+  color: lightgrey;
+}
